@@ -1,0 +1,6 @@
+*.orig
+.idea
+package-lock.json
+node_modules
+scripts/
+.gitlab-ci.yml

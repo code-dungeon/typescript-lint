@@ -1,0 +1,26 @@
+{
+  "name": "@code-dungeon/typescript-lint",
+  "version": "0.0.1",
+  "description": "Shared typescript lint for code-dungeon projects",
+  "main": "tslint.json",
+  "scripts": {
+    "prepare": "husky install .github/hooks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:code-dungeon/typescript-lint.git"
+  },
+  "devDependencies": {
+    "@code-dungeon/commit-format": "^0.0.2",
+    "husky": "^7.0.0"
+  },
+  "config": {
+    "cz-customizable": {
+      "config": ".github/commit-config.js"
+    }
+  },
+  "files": [
+    "tslint.json"
+  ],
+  "license": "MIT"
+}
